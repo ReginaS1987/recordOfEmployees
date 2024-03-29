@@ -58,6 +58,7 @@ class App extends Component {
                 if (item.id === id) {
                     return {...item, [prop]: !item[prop]}
                 }
+                console.log(data)
                 return item;
             })
         }))
